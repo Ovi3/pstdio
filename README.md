@@ -1,5 +1,5 @@
 # pstdio
-A GDB plug-in that can set stdio of the program you debug
+A GDB plug-in that can set stdio of the program you debug.
 
 # Installation
 ```
@@ -18,4 +18,4 @@ Example:
 pstdio data /x \\x02\\x03\\x04\\x05
 ```
 3. Then execute the 'call `<read@plt>`', the data you enter will be input.
-4. Or you can type 'psdtio file /path/to/data'. In the case, data of the file will bu input.
+4. Or you can type 'psdtio file /path/to/data'. In this case, data of the file will be input.
