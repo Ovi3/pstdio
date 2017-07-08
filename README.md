@@ -12,7 +12,7 @@ echo "source ~/pstdio/pstdio.py" >> ~/.gdbinit
 First open GDB, And type 'pstdio help' to see the help text.
 
 Example:
-1. When you debug the program, and the program will call the '`<read@plt` to read data from stdio.
+1. When you debug the program, and the program will call the '`<read@plt>` to read data from stdio.
 2. And if you wanna enter the data, like '\x02\x03\x04\x05', just type:
 ```
 pstdio data /x \\x02\\x03\\x04\\x05
