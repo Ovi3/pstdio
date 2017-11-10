@@ -43,7 +43,7 @@ class Pstdio(object):
                     i += 1
             data = hexed_data
 
-	with open(tmp_file, "wb") as f:
+        with open(tmp_file, "wb") as f:
             f.write(data)
 
         fd_stdio = gdb.execute('p $fd_stdio', to_string=True)
