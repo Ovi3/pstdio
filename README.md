@@ -1,6 +1,9 @@
 # pstdio
 A GDB plug-in that can set stdio of the program you debug.
 
+# Notice
+See issue [#1](https://github.com/Ovi3/pstdio/issues/1)
+
 # Installation
 ```
 git clone https://github.com/Ovi3/pstdio.git ~/pstdio
